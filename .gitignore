@@ -1,0 +1,71 @@
+# Quarto build artifacts
+_site/
+_output/
+*.html
+*.pdf
+*.docx
+*.pptx
+*.epub
+*.zip
+*.tar.gz
+
+# Temporary files created by Quarto or Pandoc
+*.log
+*.tmp
+*.aux
+*.toc
+*.out
+*.nav
+*.snm
+*.vrb
+
+# Node modules (if using custom JavaScript/CSS with Node.js dependencies)
+node_modules/
+
+# RStudio and R temporary files (if R is used in the project)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Vim/Emacs/VSCode temporary files
+*.swp
+*.swo
+*.swn
+*.un~
+*.~*
+*.code-workspace
+.vscode/
+
+# Backup files
+*~
+*.bak
+*.old
+*.orig
+*.sav
+
+# Python-related (if Python is used for preprocessing or visualization)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Jupyter Notebook temporary files
+*.nbconvert/
+
+# Build-related files for Reveal.js
+revealjs/dist/
+revealjs/plugin/
+
+# Additional temporary folders and artifacts
+.cache/
+.temp/
