@@ -1,7 +1,7 @@
 ---
 title: "KI/Mensch Zusammenarbeit : Kurvendiskussion"
-author: "Your Name Here"
-date: "`\today`"  # Automatically inserts today's date
+author: "Wolfgang Spahn"
+date: 28.01.2025  # Automatically inserts today's date
 abstract: |
   Eine Kurvendiskussions Aufgabe, die die Zusammenarbeit zwischen KI und Mensch demonstriert.
 # Additional metadata (optional)
@@ -15,6 +15,7 @@ header-includes:
 - \usepackage{xcolor}
 - \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 - \newcommand{\green}[1]{\textcolor{green}{#1}}
+- \newcommand{\red}[1]{\textcolor{red}{#1}}
 ---
 
 
@@ -26,7 +27,7 @@ Zeichne die Function \(f(x) = x^3 - 2x^2 - x + 2\) mittels ChatGPT, python und m
 
 ## Direkte Frage
 
-- **Prompt**: \blue{Zeichne die Function \(f(x) = x^3 - 2x^2 - x + 2\) mittels ChatGPT, python und matplotlib und diskutiere die Funktion.}
+- **Prompt**: \blue{Zeichne die Function \(f(x) = x^3 - 2x^2 - x + 2\) mittels python und matplotlib und diskutiere die Funktion.}
 
 Fragt man ChatGPT direkt, bekommt man eine erste Antwort, die ein Verständnis von Ableitungen und Extremstellen vorraussetzt.
 
@@ -73,13 +74,17 @@ Kein Problem, ich erkläre es dir einfach!
 2. **Tiefpunkt**: Die Kurve fällt ab, erreicht ihren tiefsten Punkt und steigt dann wieder an.
 
 Bei der Funktion \(f(x) = x^3 - 2x^2 - x + 2\) passiert Folgendes:
-- Der Graph hat einen **Tiefpunkt** (Tal) bei \(x \approx -\frac{1}{3}\) (etwa -0,33).
-- Einen **Hochpunkt** (Berg) gibt es bei \(x = 2\).
+
+- Der Graph hat einen **Tiefpunkt** (Tal) bei \(x \approx -\frac{1}{3}\) (etwa -0,33). [\red{flasch}]
+- Einen **Hochpunkt** (Berg) gibt es bei \(x = 2\). [\red{flasch}]
 
 #### Warum sind diese Punkte wichtig?
+
 Extremstellen helfen dir zu verstehen, wo eine Funktion am höchsten oder am tiefsten ist, was oft nützlich ist, z. B. wenn du wissen willst, wann etwas am meisten oder am wenigsten ist (z. B. Geschwindigkeit, Kosten, Höhe).
 
 Hoffe, das macht es klarer! Frag gerne weiter, wenn du etwas vertiefen möchtest.
+
+\newpage
 
 ### Extremstellen im Graphen
 
@@ -89,8 +94,8 @@ Hoffe, das macht es klarer! Frag gerne weiter, wenn du etwas vertiefen möchtest
 
 Im aktualisierten Graphen habe ich die Extremstellen der Funktion \(f(x) = x^3 - 2x^2 - x + 2\) eingezeichnet:
 
-- **Tiefpunkt** (grüner Punkt): Dieser liegt bei etwa \(x = -0.33\).
-- **Hochpunkt** (magenta Punkt): Dieser liegt bei \(x = 2\).
+- **Tiefpunkt** (grüner Punkt): Dieser liegt bei etwa \(x = -0.33\). [\red{flasch}]
+- **Hochpunkt** (magenta Punkt): Dieser liegt bei \(x = 2\). [\red{flasch}]
 
 Die Punkte zeigen dir, wo die Funktion ein Tal (Tiefpunkt) oder einen Berg (Hochpunkt) erreicht. Wenn du weitere Fragen dazu hast, lass es mich wissen!
 
