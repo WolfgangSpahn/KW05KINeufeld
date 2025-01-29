@@ -28,7 +28,7 @@ resources:
   - interaktive.pdf
 ---
 ## Infos
-<!-- --------------------------------------------------- slide I1 ----------------------------------------------------- -->
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 <br>
 Zum Starten des Ateliers bitte diesen Link verwenden:
 <br>
@@ -38,21 +38,25 @@ Für Vollbildmodus bitte diesen Button "Fullscreen" klicken oder Taste "F11".
 <br><br>
 <button onclick="goFullScreen()" class="centered-xxl-rounded-button">Fullscreen</button>
 
-<!-- --------------------------------------------------- slide I2 ----------------------------------------------------- -->
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Willkommen im Atelier
 
 <div type="teamCollection" id="team-collection"></div>
 
-
 ## Module
 
-- Motivation, Geschichte, Prinzipien von neuronal AI: Warum neuronale Netzwerke?
-- Wie verstehen neuronale Netze Sprache und Bilder?
-- Wie kreieren wir Texte nach unseren Vorgaben?
-- Wie kreieren wir Bilder nach unseren Ideen?
-- AI heute und morgen
-- Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.
-- Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
+- Donnerstag-Nachmittag
+  - Willkommen
+  - Motivation, Geschichte, Prinzipien von neuronal AI: Warum neuronale Netzwerke?
+  - Wir bauen ein neuronales Netzwerk
+  - Wie verstehen neuronale Netze Sprache und Bilder?
+- Freitag-Vormittag
+  - Wie kreieren wir Texte nach unseren Vorgaben? 
+  - Wie kreieren wir Bilder nach unseren Ideen?
+  - AI heute und morgen
+- Freitag-Nachmittag
+  - Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.
+  - Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -200,6 +204,20 @@ OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:
 <br><br><br><br>
 
 ::: {.centered-xxl-text}
+Wir bauen ein neuronales Netzwerk
+:::
+
+<!-- --------------------------------------------------- slide A8 ----------------------------------------------------- -->
+## Mustererkennung
+
+<div type="mustererkennung" id="svg-mustererkennung"></div>
+
+<!-- =================================================== slide ===================================================== -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
 Wie verstehen neuronale Netze Sprache und Bilder?
 :::
 
@@ -228,7 +246,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 ## Text Bedeutung
 :::: {.columns}
 ::: {.column width="50%"}
-**Wort Embeddings**
+**Wie versteht die KI ein Wort?**
 
 - Ein Wort/Token entspricht einem Zahlen Vektor
 - Wort Beziehungen entsprechen Vektor Beziehungen 
@@ -237,7 +255,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 :::
 ::: {.column width="50%"}
 
-**Satz Embedding**
+**Wie versteht die KI einen Satz?**
 
 - Ein Satz entspricht einem Zahlen Vektor
 - Satz Beziehungen entsprechen Vektor Beziehungen
@@ -254,7 +272,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 ::: {.column width="50%"}
 **Ein Wort, zwei Bedeutungen**
 
-- Ein Wort hat zunächst nur eine Bedeutung (embedding). 
+- Ein Wort hat für die KI zunächst nur eine Bedeutung. 
 - Um Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.
 
 <br>
@@ -295,46 +313,46 @@ OpenAI brauchte $13\cdot 10^{12}$ Tokens (~100 Mio Bücher) um GPT-4 mit ca. $1\
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## LLMs Schlussfolgern
+## Ein Podcast
 
-:::: {.columns}
-::: {.column width="40%"}
+**DEMO**: Google Notebook LM erkärt Dir Deinen Text in einem Podcast.
 
-Ich war auf einer Party. Ich kam vor John an. David kam nach Joe an. Joe kam vor mir an. John kam nach David an. Wer kam zuerst an?
+- [Source](https://gymneufeld.ch/chinastudienreise-und-wyef-2024/)
 
-<div type="inputField" id="inputField1"></div>
+- [Podcast](https://notebooklm.google.com/notebook/3db386a2-35a7-42fe-88a0-17d038ed8081/audio)
 
-Und was sagen die KI Modelle?
 
-- [Leaderboard](https://lmarena.ai/)
-- [GPT 4](https://chatgpt.com/?oai-dm=1&model=gpt-4)
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-- [GPT 4o-mini](https://chatgpt.com/?oai-dm=1&model=gpt-4o-mini)
+- [Notebook LM](https://notebooklm.google.com)
 
-:::
-::: {.column width="60%"}
-
-<div type="inputCollection" ref="inputField1" argConfig='{ "width": 500, "height": 300, "hidden": false }'></div>
-
-:::
-::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## LLMs "denken" um die Ecke
+## KI ist mehr als Imitation
+
+![Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen](images/LLMEmergentCapabilites.gif){width="80%" }
+
+<!-- =================================================== slide ===================================================== -->
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+Wie kreieren wir Texte nach unseren Vorgaben?
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KIs sind schlau und doof zugleich
 
 :::: {.columns}
 ::: {.column width="40%"}
 
-Sie sind ein Butler in einem Schloss. Im Wohnzimmer befindet sich eine sehr teure Vase. Ein Dieb betritt das Haus und zwingt Sie, das Zimmer zu nennen, in dem die Vase steht. Sie müssen ein Zimmer benennen. Wie antworten Sie?
+Wieviel Rs sind in strawberry?
 
 <div type="inputField" id="inputField2"></div>
 
 Und was sagen die KI Modelle?
 
-- [Open LLMs](https://labs.perplexity.ai/)
-- [GPT 4](https://chatgpt.com/?oai-dm=1&model=gpt-4)
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-- [GPT 4o-mini](https://chatgpt.com/?oai-dm=1&model=gpt-4o-mini)
 
 :::
 ::: {.column width="60%"}
@@ -344,18 +362,12 @@ Und was sagen die KI Modelle?
 :::
 ::::
 
-<!-- =================================================== slide ===================================================== -->
-## _
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-<br><br><br><br>
+## Wieviel Rs?
 
-::: {.centered-xxl-text}
-Prompting für Texte
-:::
+![Open LLMs](images/HowManyRs_d.webp)
 
-::: {.centered-text}
-Wie kreieren wir Texte nach unseren Vorgaben?
-:::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
@@ -368,6 +380,8 @@ Erinnert Euch die KI "denkt" nicht wie Menschen sondern sie verdichtet Informati
 - Eurer Input wird zu einem Vektor verdichtet, der dann die Antwort bestimmt.
 - Alles was Ihr der KI in der Session gesagt habt, ist Teil des Prompts.
 
+![Prompting](images/DALL_E_Prompt.webp){width="80%"}
+
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
 ## Gute Prompts für Texte
@@ -375,7 +389,7 @@ Erinnert Euch die KI "denkt" nicht wie Menschen sondern sie verdichtet Informati
 Die KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struktur, Klarheit, KI auch. Der Mensch denkt in Geschichten. Die KI auch.
 
   - Setzt den **Rahmen**, welche **Rolle** soll die KI spielen: Experte, Schriftsteller, Lehrer, Berater, ...
-  - Sei konkret, **präzise** und vermeide Vieldeutigkeit
+  - Sei konkret, **präzise** und vermeide Vieldeutigkeit. Ein Beispiel hilft.
   - KI kann nur das wissen, was sie gelernt hat. Wenn sie es **nicht gelernt** hat, **haluziniert** sie. "Wie ein Schüler*in unter Druck."
     - Für sie unbekannte Information muss von Dir zum Prompt hinzugefügt werden.
     - Wenn sie sich selber wiederspricht heisst das, es gibt in den Trainingsdaten Widersprüche.
@@ -383,9 +397,29 @@ Die KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struk
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Ein erster Text
+## Erzeugen von Texten
+
+- **prompt**: BItte fasse die Geschichte des Gymnasiums Neufeld in Bern zusammen.
+
+- **prompt**: Gibt es etwas von der Schulwebseite zum Thema 3d Drucken.
+
 
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
+
+## Wir lösen ein Kreuzworträtsel
+
+:::: {.columns}
+::: {.column width="50%"}
+Bitte gib mir ein Wort mit 5 Buchstaben: Doppelagent und Gegenspieler des Jungen der überlebte.
+:::
+::: {.column width="50%"}
+![](images/raetsel.png){width="80%"}
+:::
+::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -393,12 +427,90 @@ Die KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struk
 <br><br><br><br>
 
 ::: {.centered-xxl-text}
-Prompting für Bilder
-:::
-
-::: {.centered-text}
 Wie kreieren wir Bilder nach unseren Ideen?
 :::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Ein erstes Bild  
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Bitte zeichne ein Bild von einem Dinosaurier, der auf einem Skateboard fährt, im Stil von Dali.
+
+![Dino on skateboard](images/DALL·E_dinosaur_dali.webp){width="50%"}
+
+:::
+::: {.column width="50%"}
+
+- Bitte zeichne ein rechtwinkliges Dreieck, das in einem Kreis liegt, im Still technisches Zeichnen. Zeichne den rechten winkel ein.
+
+![Dreieck im Kreis](images/DALL·E_right-angled_triangle.webp){width="50%"}
+
+:::
+::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Wir spielen mit Bildern
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- **prompt**: Bitte zeichne ein Bild von einem Vogel Strauss, der auf einem Skateboard fährt, im Stil von Dali.
+
+![Strauss auf dem Skateboard](images/DALL_E_Strauss_auf_dem_Skateboard.webp){width="50%"}
+:::
+::: {.column width="50%"}
+
+- **prompt**: Bitte transkribiere dieses Bild, sodass ich es mittels prompt reproduzieren kann: Position, Stil, Farben, ...
+
+:::{.small}
+Ein surrealistisches Kunstwerk zeigt einen Strauß, der auf einem blauen Skateboard fährt. Der Strauß ist leicht nach rechts geneigt und steht mittig im Bild, wobei seine langen Beine auf dem Skateboard gut sichtbar sind. Das Skateboard ist schräg in einem leichten Winkel nach rechts positioniert, während die Rollen klar definiert sind und einen Eindruck von Bewegung erzeugen. Der Strauß hat einen aufmerksamen Ausdruck, und sein Hals ist aufrecht. Er befindet sich auf einer trockenen, rissigen Wüstenlandschaft, die den unteren Teil des Bildes einnimmt.
+:::
+
+:::
+::::
+
+
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Wir spielen mit Bildern 2/2
+
+:::: {.columns}
+::: {.column width="50%"}
+
+![Strauss auf dem Skateboard](images/DALL_E_Strauss_auf_dem_Skateboard.webp){width="70%"}
+:::
+::: {.column width="50%"}
+
+
+![Dino auf dem Skateboard](images/DALL_E_Dino_auf_dem_Skateboard.webp){width="70%"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Technische Zeichnungen
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Math-problem: Leo hat aus 27 kleinen, gleich grossen Würfeln einen grossen 3× 3× 3-Würfel gebaut. Die kleinen Würfel sind schwarz, grau oder weiss. Die Oberfläche des grossen Würfels ist jeweils zu einem Drittel schwarz, grau und weiss. Bitte hilf schon einmal bei der Visualisierung des Problems in matplotlib python.
+
+:::
+::: {.column width="50%"}
+
+![Würfel](images/WuerfeproblemFig1.png){width="50%"}
+
+:::
+::::
+
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
 ## Gute Prompts für Bilder 1/2
@@ -429,11 +541,6 @@ Es ist wie beim Drehbuch schreiben. Die Szenenbeschreibung ist der Input für di
     - Welche Bildaufteilung? Goldener Schnitt, ...
     - Welche Bildaussage? Was soll das Bild aussagen?
 
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Ein erstes Bild  
-
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-
 <!-- =================================================== slide ===================================================== -->
 ## _
 
@@ -446,26 +553,6 @@ AI heute und morgen
 ::: {.centered-text}
 Wo geht die Reise hin?
 :::
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## KI ist mehr als Imitation
-
-:::: {.columns}
-::: {.column width="50%"}
-
-![](images/Screenshot_5-9-2024_13179_arxiv.org.webp){width="80%" }
-
-:::
-::: {.column width="50%"}
-
-![GPTs werden in einer vorhersehbaren Weise immer besser.](images/LLMScalingLaw.webp){.margin-top-20 }
-
-:::
-::::
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Selbstorganisation von LLMs
-
-![Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen](images/LLMEmergentCapabilites.gif){width="80%" }
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Wie machen LLMs das? 2/2
@@ -558,6 +645,8 @@ Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode
 
 ## Im Dialog mit KI
 
+Richtig gute Ergebnisse erzielt man nicht mit einem prompt, Es braucht einen Dialog auf Augenhöhe.
+
   - Definiere Dein Ziele erstmal für Dich selbst.
   - Überlege, wie Du die KI dazu bringen kannst, Deine Ziele zu erreichen.
   - Gehe methodisch vor, Schritt für Schritt. Verlange nicht zu viel auf einmal.
@@ -569,32 +658,23 @@ Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## KUrvendiskussion mit KI
+## Funtionenzeichnen mit KI
 
-**DEMO**: ChatGPT erzeugt Code für eine Kurvendiskussion.
 
-- Bitte gib mir den Matplotlib code um die function y = x³-4x²+3x-1 zu zeichnen. Verwende das Canvas.
+:::: {.columns}
+::: {.column width="50%"}
+
+- Bitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.
+
+:::
+::: {.column width="50%"}
+
+![](images/Kurvendiskussion1.png){width="80%"}
+
+:::
+::::
 
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-
-## Etwas mit Text
-
-**DEMO**: ChatGPT hilft beim Kreuzworträtsel.
-
-- Für ein Kreuzworträtsel brauche ich ein Wort mit 8 Buchstaben: Mächtig viel Verkehr?.
-
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-
-## Ein Podcast
-
-**DEMO**: Google Notebook LM erkärt Dir Deinen Text.
-
-- [GPT 4o](https://notebooklm.google.com)
 
 
 <!-- =================================================== slide ===================================================== -->
@@ -611,65 +691,31 @@ Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
 :::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## LLMs "denken" um die Ecke
+## Wir zeichnen ein Comic
 
-:::: {.columns}
-::: {.column width="40%"}
-
-Wieviel Rs sind in strawberry?
-
-<div type="inputField" id="inputField2"></div>
-
-Und was sagen die KI Modelle?
-
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-
-:::
-::: {.column width="60%"}
-
-<div type="inputCollection" ref="inputField2" argConfig='{ "width": 500, "height": 300, "hidden": false }'></div>
-
-:::
-::::
+Comic zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Wieviel Rs?
+## Ein schwieriges Kreuzworträtsel
 
-![Open LLMs](images/HowManyRs_d.webp)
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## KI/Mensch Zusammenarbeit
-
-Nach dem Motto zusammen sind wir stark, bekommt man bei einer engen Zusammenarbeit Mensch/KI die besten Ergebnisse.
-
-**DEMO**: ChatGPT hilft beim Kreuzworträtsel und es wird schwierig.
-
-**Prompt**: Für ein Kreuzworträtsel brauche ich ein Wort mit 4 Buchstaben: eisiges Glasgebläse? Es endet auf "m".
-
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+ChatGPT ist nicht wirklich gut in Kreuzworträtseln. Wir auch nicht. Gemeinsam schaffen wir es vielleicht.
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
 ## Kurvendiscussion mit KI
 
-**DEMO**: Arbeiten mit code und Text
-
-**Prompt**: Bitte gib mir den Matplotlib code um die function y = x³-4x²+3x-1 zu zeichnen. Verwende das Canvas.
+Wir wollen die Funktion y = x³-2x²-x+2 genau untersuchen. ChatGPT soll uns dabei helfen.
 
 - Nullstellen, Extrema und Wendepunkte etc.?
 
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
-
-
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Wie machen ein Comic
+## Wir lösen ein schwieriges Mathematikproblem
 
-**DEMO**: ChatGPT hilft beim Comic zeichnen.
-**Prompt**: ????
+Wir haben ein schwieriges Mathematikproblem. ChatGPT soll uns dabei helfen. ChatGPT stösst an seine Grenzen. Wir auch.
+Wir probieren es gemeinsam.
 
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
 <!-- =================================================== slide ===================================================== -->
 ## _

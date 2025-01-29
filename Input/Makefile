@@ -43,11 +43,11 @@ upload: render  ## Upload the docs to the server
 	scp -r $(DOCS_TAR_PATH) $(SERVER):$(REMOTE_PATH) && \
 	ssh $(SERVER) "rm -rf $(AWS_PREFIX)$(INTERAKTIV)$(DOCS_PATH)" && \
 	ssh $(SERVER) "tar -xvf $(REMOTE_PATH)$(DOCS_TAR_PATH) -C $(AWS_PREFIX)$(INTERAKTIV)" && \
-	cd ../interaktiv-frontend/ && make build && make upload
+	cd ../../interaktiv-frontend/ && make build && make upload
 
 load: render    ## load docs to local nginx server
 	cp -r $(DOCS_PATH)/* $(LOC_PREFIX)$(INTERAKTIV)$(DOCS_PATH)
-	cd ../interaktiv-frontend/ && make build && make load
+	cd ../../interaktiv-frontend/ && make build && make load
 
 dev:			## Serves the project in development mode
 	cd docs && python -m http.server 5050
