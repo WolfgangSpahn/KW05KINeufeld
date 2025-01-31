@@ -65,31 +65,37 @@ Wir erhalten viele falsche Antworten. Richtig sind:
 
 3. **fern**
 4. **Augapfel**
-8. **egal"
+8. **egal**
 
-## Wir gehen weiter schrittweise vor
+\newpage
+
+## Detailierte Frage
+
+Wir haben die KI überfordert. Wir müssen konkreter werden.
 
 - **Prompt**: \blue{Für ein schwieriges Kreuzworträtsel benötige ich deine Hilfe. Ich gebe dir die Fragen und eine Maske, die zeigt was ich schon habe und du gibst mir die Antworten.}
 
-Sammlungsaffiner Sehenswerturteiler? (7 Buchstaben) _ U _ _ _ _ _
+\blue{Sammlungsaffiner Sehenswerturteiler? (7 Buchstaben)} _ U _ _ _ _ _
 
 Die gesuchte Antwort könnte **KURIATOR** sein. Ein Kurator ist eine Person, die für Sammlungen (z. B. in Museen) verantwortlich ist und als eine Art "sehenswerten Urteiler" fungieren kann.
 
-- **Prompt**: \blue{Tierische Ausgrenzung? (6 Buchstaben)} _ _ _ _ _ _
+- **Prompt**: \blue{Tierische Ausgrenzung? (6 Buchstaben)} R E _ _ _ _
 
 Die gesuchte Antwort könnte REHETZ sein, was metaphorisch für eine Art tierische Ausgrenzung stehen könnte. \red{Die Antwort ist falsch.}
 
+\red{Wir müssen noch konkreter werden. Wie wird hier um die Ecke gedacht?}
+
 - **Prompt**: \blue{Bitte hilf mir ein schwieriges Kreuzworträtsel zu lösen:}
-Die Fragen verstecken die Antwort durch
-- Assoziationen durch Redewendungen oder Metaphern
-- Bezug auf Ereignisse
-- Buchstabenspiel: Ausschnitt (1,2 Worte) haben die gleichen Buchstaben wie Lösungswort
-- Versteckte Anagramme oder Buchstabenhinweise
-- Versteckte Bedeutung
-- Vesteckter Situationen Hinweis
-- Wortspiel duch Doppeldeutigkeit, Buchstabenspeilerei
-- Wortspiel duch Doppeldeutigkeit, Wortzusammensetzung/Trennung
-- Wortspiel durch Assoziation
+\blue{Die Fragen verstecken die Antwort durch}
+- \blue{Assoziationen durch Redewendungen oder Metaphern}
+- \blue{Bezug auf Ereignisse}
+- \blue{Buchstabenspiel: Ausschnitt (1,2 Worte) haben die gleichen Buchstaben wie Lösungswort}
+- \blue{Versteckte Anagramme oder Buchstabenhinweise}
+- \blue{Versteckte Bedeutung}
+- \blue{Vesteckter Situationen Hinweis}
+- \blue{Wortspiel duch Doppeldeutigkeit, Buchstabenspeilerei}
+- \blue{Wortspiel duch Doppeldeutigkeit, Wortzusammensetzung/Trennung}
+- \blue{Wortspiel durch Assoziation}
 
 Tierische Ausgrenzung? (6 Buchstaben) R E _ _ _ _
 
