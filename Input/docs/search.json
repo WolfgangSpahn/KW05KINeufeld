@@ -4,7 +4,7 @@
     "href": "index.html#infos",
     "title": "Spass mit KI",
     "section": "Infos",
-    "text": "Infos\n\n Zum Starten des Ateliers bitte diesen Link verwenden: \n\nsebayt.com\n\n Für Vollbildmodus bitte diesen Button “Fullscreen” klicken oder Taste “F11”.  Fullscreen"
+    "text": "Infos\n\n Zum Starten des Ateliers bitte diesen Link verwenden: \n\nsebayt.ch/docs/\n\n Für Vollbildmodus bitte diesen Button “Fullscreen” klicken oder Taste “F11”.  Fullscreen \n\nServer IP:"
   },
   {
     "objectID": "index.html#willkommen-im-atelier",
@@ -21,6 +21,13 @@
     "text": "Module\n\nDonnerstag-Nachmittag\n\nWillkommen\nMotivation, Geschichte, Prinzipien von neuronal AI: Warum neuronale Netzwerke?\nWir bauen ein neuronales Netzwerk\nWie verstehen neuronale Netze Sprache und Bilder?\n\nFreitag-Vormittag\n\nWie kreieren wir Texte nach unseren Vorgaben?\nWie kreieren wir Bilder nach unseren Ideen?\nAI heute und morgen\n\nFreitag-Nachmittag\n\nWir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.\nWie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?"
   },
   {
+    "objectID": "index.html#was-meint-ihr",
+    "href": "index.html#was-meint-ihr",
+    "title": "Spass mit KI",
+    "section": "Was meint ihr?",
+    "text": "Was meint ihr?\n\nPasst das so für Euch?"
+  },
+  {
     "objectID": "index.html#section",
     "href": "index.html#section",
     "title": "Spass mit KI",
@@ -35,11 +42,11 @@
     "text": "Die Idee vom Künstlichen\n\n\nSchon in der Antike versuchten Menschen, künstliche Wesen zu erschaffen.\nIm 18. Jahrhundert schuf der Schweizer Uhrmacher Jaquet-Droz mechanische Figuren, die schreiben, zeichnen und Musik spielen konnten.\nErst heute werden die Kuriositäten zu echten Anwendungen."
   },
   {
-    "objectID": "index.html#ki-kuriosität-oder-realität",
-    "href": "index.html#ki-kuriosität-oder-realität",
+    "objectID": "index.html#ki-kuriositätrealität",
+    "href": "index.html#ki-kuriositätrealität",
     "title": "Spass mit KI",
-    "section": "KI Kuriosität oder Realität?",
-    "text": "KI Kuriosität oder Realität?\n\n\nErst waren die Anwendungen sehr spezifisch und eher kurios.\nHeute sind intelligente Systeme Realität."
+    "section": "KI Kuriosität/Realität?",
+    "text": "KI Kuriosität/Realität?"
   },
   {
     "objectID": "index.html#ki---intelligenz",
@@ -77,11 +84,11 @@
     "text": "_\n\n\nWir bauen ein neuronales Netzwerk"
   },
   {
-    "objectID": "index.html#mustererkennung",
-    "href": "index.html#mustererkennung",
+    "objectID": "index.html#ki-mustererkennung",
+    "href": "index.html#ki-mustererkennung",
     "title": "Spass mit KI",
-    "section": "Mustererkennung",
-    "text": "Mustererkennung"
+    "section": "KI Mustererkennung",
+    "text": "KI Mustererkennung"
   },
   {
     "objectID": "index.html#section-2",
@@ -91,46 +98,46 @@
     "text": "_\n\n\nWie verstehen neuronale Netze Sprache und Bilder?"
   },
   {
-    "objectID": "index.html#trainingsarten",
-    "href": "index.html#trainingsarten",
+    "objectID": "index.html#ki-trainingsarten",
+    "href": "index.html#ki-trainingsarten",
     "title": "Spass mit KI",
-    "section": "Trainingsarten",
-    "text": "Trainingsarten\n\n\nÜberwachtes Lernen\nMenschliche Experten klassifizieren/markieren die Daten. Aufgrund dieser Daten wird das Modell trainiert. Aufwendig und teuer.\n\n\nUnüberwachtes Lernen Das Modell lernt aus den Daten ohne menschliche Eingriffe. Rekonstruiert verrauschte Daten. source\n\nFindet das nächste Wort/Bild in einer Sequenz. how are [you]"
+    "section": "KI Trainingsarten",
+    "text": "KI Trainingsarten\n\n\nÜberwachtes Lernen\nMenschliche Experten klassifizieren/markieren die Daten. Aufgrund dieser Daten wird das Modell trainiert. Aufwendig und teuer.\n\n\nUnüberwachtes Lernen Das Modell lernt aus den Daten ohne menschliche Eingriffe. Rekonstruiert verrauschte Daten. source\n\nFindet das nächste Wort/Bild in einer Sequenz. how are [you]"
   },
   {
-    "objectID": "index.html#text-bedeutung",
-    "href": "index.html#text-bedeutung",
+    "objectID": "index.html#ki-text-bedeutung",
+    "href": "index.html#ki-text-bedeutung",
     "title": "Spass mit KI",
-    "section": "Text Bedeutung",
-    "text": "Text Bedeutung\n\n\nWie versteht die KI ein Wort?\n\nEin Wort/Token entspricht einem Zahlen Vektor\nWort Beziehungen entsprechen Vektor Beziehungen\n\n\n\nWie versteht die KI einen Satz?\n\nEin Satz entspricht einem Zahlen Vektor\nSatz Beziehungen entsprechen Vektor Beziehungen\n\n\n\nOpenAI Tokenizer"
+    "section": "KI Text Bedeutung",
+    "text": "KI Text Bedeutung\n\n\nWie versteht die KI ein Wort?\n\nEin Wort/Token entspricht einem Zahlen Vektor\nWort Beziehungen entsprechen Vektor Beziehungen\n\n\n\nWie versteht die KI einen Satz?\n\nEin Satz entspricht einem Zahlen Vektor\nSatz Beziehungen entsprechen Vektor Beziehungen\n\n\n\nOpenAI Tokenizer"
   },
   {
-    "objectID": "index.html#mehrdeutigkeit",
-    "href": "index.html#mehrdeutigkeit",
+    "objectID": "index.html#ki-mehrdeutigkeit",
+    "href": "index.html#ki-mehrdeutigkeit",
     "title": "Spass mit KI",
-    "section": "Mehrdeutigkeit @!?",
-    "text": "Mehrdeutigkeit @!?\n\n\nEin Wort, zwei Bedeutungen\n\nEin Wort hat für die KI zunächst nur eine Bedeutung.\nUm Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.\n\n\n\n\n\nBeispiel: bank (Geldinstitut), bank (Ufer)\n\n\n\nDas Wort im Kontext\n\nEin neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)\nDaraus lernt es das wahrscheinlichste Wort vorherzusagen.\n\n\n\n\nBeispiel: river, bank"
+    "section": "KI Mehrdeutigkeit @!?",
+    "text": "KI Mehrdeutigkeit @!?\n\n\nEin Wort, zwei Bedeutungen\n\nEin Wort hat für die KI zunächst nur eine Bedeutung.\nUm Text realistisch zu bearbeiten, müssen Worte im Kontext prozessiert werden.\n\n\n\n\n\nBeispiel: bank (Geldinstitut), bank (Ufer)\n\n\n\nDas Wort im Kontext\n\nEin neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)\nDaraus lernt es das wahrscheinlichste Wort vorherzusagen.\n\n\n\n\nBeispiel: river, bank"
   },
   {
-    "objectID": "index.html#wie-machen-llms-das-12",
-    "href": "index.html#wie-machen-llms-das-12",
+    "objectID": "index.html#wie-machen-kis-das-12",
+    "href": "index.html#wie-machen-kis-das-12",
     "title": "Spass mit KI",
-    "section": "Wie machen LLMs das? 1/2",
-    "text": "Wie machen LLMs das? 1/2\nLLM bewerten die Wahrscheinlichkeit eines Textes. Dabei lernen sie die Beziehungen zwischen Wörtern und Sätzen.\n\n\n\n\n\n\n\nSatz\nWahrscheinlichkeit\n\n\n\n\nDie Katze sass auf der Bank. Die Bank war aus Holz\n90 %\n\n\nDie Katze sass auf der Bank. Die Bank war geschlossen\n10 %\n\n\n\n Training von LLMs:\n\nmit ALLEN qualitativ hochwertigen, weltweit zugänglichen menschlichen Sprachdaten\nUmfasst Bücher, Zeitungen, geschriebene Sprachen, Internet-Dialoge und transkribierte Video-Dialoge\n\nOpenAI brauchte \\(13\\cdot 10^{12}\\) Tokens (~100 Mio Bücher) um GPT-4 mit ca. \\(1\\cdot 10^{12}\\) Parameter, dh. Terabytes an Speicher, auf Tausenden von GPUs mehrere Monate zu trainieren.\nn-gram"
+    "section": "Wie machen KIs das? 1/2",
+    "text": "Wie machen KIs das? 1/2\nLLM bewerten die Wahrscheinlichkeit eines Textes. Dabei lernen sie die Beziehungen zwischen Wörtern und Sätzen.\n\n\n\n\n\n\n\nSatz\nWahrscheinlichkeit\n\n\n\n\nDie Katze sass auf der Bank. Die Bank war aus Holz\n90 %\n\n\nDie Katze sass auf der Bank. Die Bank war geschlossen\n10 %\n\n\n\n Training von LLMs:\n\nmit ALLEN qualitativ hochwertigen, weltweit zugänglichen menschlichen Sprachdaten\nUmfasst Bücher, Zeitungen, geschriebene Sprachen, Internet-Dialoge und transkribierte Video-Dialoge\n\nOpenAI brauchte \\(13\\cdot 10^{12}\\) Tokens (~100 Mio Bücher) um GPT-4 mit ca. \\(1\\cdot 10^{12}\\) Parameter, dh. Terabytes an Speicher, auf Tausenden von GPUs mehrere Monate zu trainieren.\nn-gram"
   },
   {
-    "objectID": "index.html#ein-podcast",
-    "href": "index.html#ein-podcast",
+    "objectID": "index.html#ki-podcast",
+    "href": "index.html#ki-podcast",
     "title": "Spass mit KI",
-    "section": "Ein Podcast",
-    "text": "Ein Podcast\nDEMO: Google Notebook LM erkärt Dir Deinen Text in einem Podcast.\n\nSource\nPodcast\nNotebook LM"
+    "section": "KI Podcast",
+    "text": "KI Podcast\nDEMO: Google Notebook LM erkärt Dir Deinen Text in einem Podcast.\n\nSource\nPodcast\nNotebook LM"
   },
   {
     "objectID": "index.html#ki-ist-mehr-als-imitation",
     "href": "index.html#ki-ist-mehr-als-imitation",
     "title": "Spass mit KI",
     "section": "KI ist mehr als Imitation",
-    "text": "KI ist mehr als Imitation\n\n\nModelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen"
+    "text": "KI ist mehr als Imitation\n\n\n\n\nModelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen"
   },
   {
     "objectID": "index.html#section-3",
@@ -144,28 +151,28 @@
     "href": "index.html#kis-sind-schlau-und-doof-zugleich",
     "title": "Spass mit KI",
     "section": "KIs sind schlau und doof zugleich",
-    "text": "KIs sind schlau und doof zugleich\n\n\nWieviel Rs sind in strawberry?\n\n\n\nUnd was sagen die KI Modelle?\n\nGPT 4o"
+    "text": "KIs sind schlau und doof zugleich\n\n\nHow many Rs are in Strawberry?\n\n\n\nUnd was sagen die KI Modelle?\n\nGPT 4o mini"
   },
   {
-    "objectID": "index.html#wieviel-rs",
-    "href": "index.html#wieviel-rs",
+    "objectID": "index.html#ki-how-many-rs",
+    "href": "index.html#ki-how-many-rs",
     "title": "Spass mit KI",
-    "section": "Wieviel Rs?",
-    "text": "Wieviel Rs?\n\n\nOpen LLMs"
+    "section": "KI: How many Rs?",
+    "text": "KI: How many Rs?\n\n\nOpen LLMs"
   },
   {
     "objectID": "index.html#prompts-steuern-kis",
     "href": "index.html#prompts-steuern-kis",
     "title": "Spass mit KI",
     "section": "Prompts steuern KIs",
-    "text": "Prompts steuern KIs\nPrompts sind Anweisungen, die die KI dazu bringen, bestimmte Dinge zu tun.\nErinnert Euch die KI “denkt” nicht wie Menschen sondern sie verdichtet Informationen zu Vektoren.\n\nEurer Input wird zu einem Vektor verdichtet, der dann die Antwort bestimmt.\nAlles was Ihr der KI in der Session gesagt habt, ist Teil des Prompts.\n\n\n\nPrompting"
+    "text": "Prompts steuern KIs\nPrompts sind Anweisungen, die die KI dazu bringen, bestimmte Dinge zu tun.\n\nEurer Input/Prompt wird zu einem Vektor verdichtet, der dann die Antwort bestimmt.\nAlles was Ihr der KI in der Session gesagt habt, ist Teil des Prompts.\n\n\nPromptingErinnert Euch die KI “denkt” nicht wie Menschen sondern sie verdichtet Informationen zu Vektoren."
   },
   {
     "objectID": "index.html#gute-prompts-für-texte",
     "href": "index.html#gute-prompts-für-texte",
     "title": "Spass mit KI",
     "section": "Gute Prompts für Texte",
-    "text": "Gute Prompts für Texte\nDie KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struktur, Klarheit, KI auch. Der Mensch denkt in Geschichten. Die KI auch.\n\nSetzt den Rahmen, welche Rolle soll die KI spielen: Experte, Schriftsteller, Lehrer, Berater, …\nSei konkret, präzise und vermeide Vieldeutigkeit. Ein Beispiel hilft.\nKI kann nur das wissen, was sie gelernt hat. Wenn sie es nicht gelernt hat, haluziniert sie. “Wie ein Schüler*in unter Druck.”\n\nFür sie unbekannte Information muss von Dir zum Prompt hinzugefügt werden.\nWenn sie sich selber wiederspricht heisst das, es gibt in den Trainingsdaten Widersprüche."
+    "text": "Gute Prompts für Texte\nDie KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struktur, Klarheit, KI auch. Der Mensch denkt in Geschichten. Die KI auch.\n\nSetzt den Rahmen, welche Rolle soll die KI spielen: Experte, Schriftsteller, Lehrer, Berater, …\nSei konkret, präzise und vermeide Vieldeutigkeit. Ein Beispiel hilft.\nKI kann nur das wissen, was sie gelernt hat. Wenn sie es nicht gelernt hat, halluziniert sie. “Wie ein Schüler*in unter Druck.”\n\nFür sie unbekannte Information muss von Dir zum Prompt hinzugefügt werden.\nWenn sie sich selber wiederspricht heisst das, es gibt in den Trainingsdaten Widersprüche."
   },
   {
     "objectID": "index.html#erzeugen-von-texten",
@@ -175,11 +182,11 @@
     "text": "Erzeugen von Texten\n\nprompt: BItte fasse die Geschichte des Gymnasiums Neufeld in Bern zusammen.\nprompt: Gibt es etwas von der Schulwebseite zum Thema 3d Drucken.\nGPT 4o"
   },
   {
-    "objectID": "index.html#wir-lösen-ein-kreuzworträtsel",
-    "href": "index.html#wir-lösen-ein-kreuzworträtsel",
+    "objectID": "index.html#ki-kreuzworträtsel",
+    "href": "index.html#ki-kreuzworträtsel",
     "title": "Spass mit KI",
-    "section": "Wir lösen ein Kreuzworträtsel",
-    "text": "Wir lösen ein Kreuzworträtsel\n\n\nBitte gib mir ein Wort mit 5 Buchstaben: Doppelagent und Gegenspieler des Jungen der überlebte.\n\n\n\n\nGPT 4o"
+    "section": "KI & Kreuzworträtsel",
+    "text": "KI & Kreuzworträtsel\n\n\nBitte gib mir ein Wort mit 5 Buchstaben: Doppelagent und Gegenspieler des Jungen der überlebte.\n\n\n\n\nGPT 4o"
   },
   {
     "objectID": "index.html#section-4",
@@ -196,18 +203,18 @@
     "text": "Ein erstes Bild\n\n\n\nBitte zeichne ein Bild von einem Dinosaurier, der auf einem Skateboard fährt, im Stil von Dali.\n\n\n\n\nDino on skateboard\n\n\n\n\nBitte zeichne ein rechtwinkliges Dreieck, das in einem Kreis liegt, im Still technisches Zeichnen. Zeichne den rechten winkel ein.\n\n\n\n\nDreieck im Kreis\n\n\n\n\nGPT 4o"
   },
   {
-    "objectID": "index.html#wir-spielen-mit-bildern",
-    "href": "index.html#wir-spielen-mit-bildern",
+    "objectID": "index.html#wir-spielen-mit-bildern-12",
+    "href": "index.html#wir-spielen-mit-bildern-12",
     "title": "Spass mit KI",
-    "section": "Wir spielen mit Bildern",
-    "text": "Wir spielen mit Bildern\n\n\n\nprompt: Bitte zeichne ein Bild von einem Vogel Strauss, der auf einem Skateboard fährt, im Stil von Dali.\n\n\n\n\nStrauss auf dem Skateboard\n\n\n\n\nprompt: Bitte transkribiere dieses Bild, sodass ich es mittels prompt reproduzieren kann: Position, Stil, Farben, …\n\n\nEin surrealistisches Kunstwerk zeigt einen Strauß, der auf einem blauen Skateboard fährt. Der Strauß ist leicht nach rechts geneigt und steht mittig im Bild, wobei seine langen Beine auf dem Skateboard gut sichtbar sind. Das Skateboard ist schräg in einem leichten Winkel nach rechts positioniert, während die Rollen klar definiert sind und einen Eindruck von Bewegung erzeugen. Der Strauß hat einen aufmerksamen Ausdruck, und sein Hals ist aufrecht. Er befindet sich auf einer trockenen, rissigen Wüstenlandschaft, die den unteren Teil des Bildes einnimmt.\n\n\n\nGPT 4o"
+    "section": "Wir spielen mit Bildern 1/2",
+    "text": "Wir spielen mit Bildern 1/2\n\n\n\nprompt: Bitte zeichne ein Bild von einem Vogel Strauss, der auf einem Skateboard fährt, im Stil von Dali.\n\n\n\n\nStrauss auf dem Skateboard\n\n\n\n\nprompt: Bitte beschreibe dieses Bild im Detail, sodass ich es mittels prompt reproduzieren kann: Position, Stil, Farben, …\n\n\nEin surrealistisches Kunstwerk, das einen Strauß zeigt, der auf einem blauen Skateboard mit türkisfarbenen Rädern fährt. Der Strauß steht zentral im Bild, seine langen Beine gestreckt, während er mühelos über den Boden gleitet. Die Umgebung ist eine trockene, rissige Wüstenlandschaft mit sanften Hügeln im Hintergrund. Der Himmel ist ein intensiver Farbverlauf von Hellblau zu warmem Orange und Rosa, durchzogen von weichen Wolken.\nUm den Strauß herum schweben fließende, organische Formen in leuchtendem Orange und zartem Rosa, die wie flüssige, wirbelnde Bänder wirken. Einige dieser Formen scheinen mit ihm in Bewegung zu sein, während andere sanft in der Luft schweben. Zusätzlich schweben mehrere kugelförmige Objekte um den Strauß, einige mit abstrakten, psychedelischen Mustern in Blau, Orange und Gelb. Ein großes surrealistisches Auge mit einer blauen Iris und schwarzer Pupille schwebt prominent im Hintergrund, fast wie ein übernatürlicher Beobachter.\nDer Stil des Kunstwerks ist surrealistisch mit einem Hauch von moderner Fantasie. Die Farben sind kräftig und kontrastreich, mit einer harmonischen Mischung aus warmen (Orange, Rosa) und kühlen (Blau, Türkis) Tönen. Die Szene wirkt lebendig und traumartig, mit klaren Details und surrealer Dynamik, die eine magische, energiegeladene Atmosphäre erzeugen.\n\n\n\nGPT 4o"
   },
   {
     "objectID": "index.html#wir-spielen-mit-bildern-22",
     "href": "index.html#wir-spielen-mit-bildern-22",
     "title": "Spass mit KI",
     "section": "Wir spielen mit Bildern 2/2",
-    "text": "Wir spielen mit Bildern 2/2\n\n\n\n\n\nStrauss auf dem Skateboard\n\n\n\n\n\n\nDino auf dem Skateboard"
+    "text": "Wir spielen mit Bildern 2/2\nWenn wir den detailierten Text verwenden, können wir den Stil reproduzieren.\n\n\n\n\n\nStrauss auf dem Skateboard\n\n\n\n\n\n\nDino auf dem Skateboard"
   },
   {
     "objectID": "index.html#technische-zeichnungen",
@@ -259,11 +266,11 @@
     "text": "KI in der Forschung\n\nEin Team von Wissenschaftlern hat eine chemische KI entwickelt, die in der Lage ist, Moleküle zu entwerfen, die auf dem Mars Sauerstoff produzieren könnten. Dazu hat sie Marsproben analysiert und zerlegt, mehr als 3,7 Millionen mögliche Moleküle für die Spaltung von Wasser und die Bildung von Sauerstoff auf dem Roten Planeten identifiziert und die 234 besten Kandidaten durch Synthese charakterisiert. Dies würde etwa 2.000 Jahre menschlicher Arbeit erfordern, schreiben die Autoren der Studie."
   },
   {
-    "objectID": "index.html#körperliche-arbeit",
-    "href": "index.html#körperliche-arbeit",
+    "objectID": "index.html#vergleich-körperliche-arbeit",
+    "href": "index.html#vergleich-körperliche-arbeit",
     "title": "Spass mit KI",
-    "section": "körperliche Arbeit",
-    "text": "körperliche Arbeit\n\n\n1900\n\n\n2024\n\n\nals Model der zu erwartenden Transformation für geistige Arbeit?"
+    "section": "Vergleich: körperliche Arbeit",
+    "text": "Vergleich: körperliche Arbeit\n\n\n1900\n\n\n2024\n\n\nals Model der zu erwartenden Transformation für geistige Arbeit?"
   },
   {
     "objectID": "index.html#section-6",
@@ -273,18 +280,18 @@
     "text": "_\n\n\nVom Prompt zum Dialog\n\n\nWir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode."
   },
   {
+    "objectID": "index.html#funktionenzeichnen-mit-ki",
+    "href": "index.html#funktionenzeichnen-mit-ki",
+    "title": "Spass mit KI",
+    "section": "Funktionenzeichnen mit KI",
+    "text": "Funktionenzeichnen mit KI\n\n\nBitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.\n\nUnd nun beginnen wir einen Dialog über Nullstellen, Extrema, Wendepunkte, … .\n\n\n\n\n\nGPT 4o"
+  },
+  {
     "objectID": "index.html#im-dialog-mit-ki",
     "href": "index.html#im-dialog-mit-ki",
     "title": "Spass mit KI",
     "section": "Im Dialog mit KI",
-    "text": "Im Dialog mit KI\nRichtig gute Ergebnisse erzielt man nicht mit einem prompt, Es braucht einen Dialog auf Augenhöhe.\n\nDefiniere Dein Ziele erstmal für Dich selbst.\nÜberlege, wie Du die KI dazu bringen kannst, Deine Ziele zu erreichen.\nGehe methodisch vor, Schritt für Schritt. Verlange nicht zu viel auf einmal.\nVerstehe und analysiere die Antworten der KI. Worauf läuft das hinaus?\nFragt nach, wenn Du nicht sicher bist, ob die KI Eure Anweisungen verstanden hat.\nLasst die KI Ihre eigene Antworten checken. Sie kann sich selbst korrigieren.\nWenn Du eine zweite Methode hasst die KI zu checken super. Spiegele die Fehler zurück zur KI."
-  },
-  {
-    "objectID": "index.html#funtionenzeichnen-mit-ki",
-    "href": "index.html#funtionenzeichnen-mit-ki",
-    "title": "Spass mit KI",
-    "section": "Funtionenzeichnen mit KI",
-    "text": "Funtionenzeichnen mit KI\n\n\n\nBitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.\n\n\n\n\n\nGPT 4o"
+    "text": "Im Dialog mit KI\nRichtig gute Ergebnisse erzielt man nicht mit einem prompt. Es braucht einen Dialog auf Augenhöhe.\n\nDefiniere Deine Ziele erstmal für Dich selbst.\nÜberlege, wie Du die KI dazu bringen kannst, Deine Ziele zu erreichen.\nGehe methodisch vor, Schritt für Schritt. Verlange nicht zu viel auf einmal.\nVerstehe und analysiere die Antworten der KI. Worauf läuft das hinaus?\nFragt nach, wenn Du nicht sicher bist, ob die KI Eure Anweisungen verstanden hat.\nLasst die KI Ihre eigene Antworten checken. Sie kann sich selbst korrigieren.\nWenn Du eine zweite Methode hast die KI zu checken super. Spiegele die Fehler zurück zur KI.\nGeduld. Die KI ist nicht perfekt. Sie kann nicht alles wissen. Sie kann nicht alles lernen."
   },
   {
     "objectID": "index.html#section-7",
@@ -298,28 +305,28 @@
     "href": "index.html#wir-zeichnen-ein-comic",
     "title": "Spass mit KI",
     "section": "Wir zeichnen ein Comic",
-    "text": "Wir zeichnen ein Comic\nComic zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen."
+    "text": "Wir zeichnen ein Comic\n\n\nComic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.\n\nStoryline: Die Geschichte in einem Satz.\nStoryboard: Wie sieht die Geschichte aus?\nBildbeschreibung: Was ist auf den einzelnen Bildern zu sehen?\nDialoge: Was sagen die Figuren?\nZeichnungen: Zeichen die Bilder.\nZusammenfügen: In einem Graphikprogram, füge die Bilder und Dialoge zusammen."
   },
   {
-    "objectID": "index.html#ein-schwieriges-kreuzworträtsel",
-    "href": "index.html#ein-schwieriges-kreuzworträtsel",
+    "objectID": "index.html#schwierige-kreuzworträtsel",
+    "href": "index.html#schwierige-kreuzworträtsel",
     "title": "Spass mit KI",
-    "section": "Ein schwieriges Kreuzworträtsel",
-    "text": "Ein schwieriges Kreuzworträtsel\nChatGPT ist nicht wirklich gut in Kreuzworträtseln. Wir auch nicht. Gemeinsam schaffen wir es vielleicht."
+    "section": "Schwierige Kreuzworträtsel",
+    "text": "Schwierige Kreuzworträtsel\nChatGPT ist nicht wirklich gut in Kreuzworträtseln. Wir auch nicht. Gemeinsam schaffen wir es vielleicht.\nAufgabe\n\n\n\n\n1 - Sammlungsaffiner Sehenswerturteiler 2 - Schmiegt sich, letztendlich damenhaft, an Wüstenregionen 3 - Passt zwischen Jung und Fahrt, auch wenn die gar nicht so weit geht 4 - Ungewöhnlich sichtbares Obst? Vergleichsweise Wohlgehüteter! 4 - Auf manch legerer &lt;6 senkrecht&gt; werden ihre Achtel in die Runde gegeben 5 - Wäre 2025 angemessen für Schweitzers 150. Oder Kehlmanns 50. 6 - Tierische Ausgrenzung 7 - Sterben müssen bleibe mir &lt;3 senkrecht&gt;, doch tot sein – das ist mir … Epicharm - 8 - Der ganze Mai liegt in ihren Zeichen, Wörtern, Sätzen, Seiten 9 - Soziale Bewegungform 10 - Darin treffen sich die Größten der Großen zum Ballspielen, aber nur kurz 11 - Ende der Welt, mit dem Wolfgang Amadeus’ Vater mitunterschrieb 12 - Mahnmal der Verwundbarkeit"
   },
   {
     "objectID": "index.html#kurvendiscussion-mit-ki",
     "href": "index.html#kurvendiscussion-mit-ki",
     "title": "Spass mit KI",
     "section": "Kurvendiscussion mit KI",
-    "text": "Kurvendiscussion mit KI\nWir wollen die Funktion y = x³-2x²-x+2 genau untersuchen. ChatGPT soll uns dabei helfen.\n\nNullstellen, Extrema und Wendepunkte etc.?"
+    "text": "Kurvendiscussion mit KI\nWir wollen uns die Konzepte der Kurvendiskussion genauer anschauen. ChatGPT soll uns dabei helfen.\nAufgabe\nDiskutiere und verstehe die Funktion y = x³-2x²-x+2.\n\nKurvenverlauf, Nullstellen, Extrema und Wendepunkte etc.?"
   },
   {
-    "objectID": "index.html#wir-lösen-ein-schwieriges-mathematikproblem",
-    "href": "index.html#wir-lösen-ein-schwieriges-mathematikproblem",
+    "objectID": "index.html#schwierige-mathematikprobleme",
+    "href": "index.html#schwierige-mathematikprobleme",
     "title": "Spass mit KI",
-    "section": "Wir lösen ein schwieriges Mathematikproblem",
-    "text": "Wir lösen ein schwieriges Mathematikproblem\nWir haben ein schwieriges Mathematikproblem. ChatGPT soll uns dabei helfen. ChatGPT stösst an seine Grenzen. Wir auch. Wir probieren es gemeinsam."
+    "section": "Schwierige Mathematikprobleme",
+    "text": "Schwierige Mathematikprobleme\nWir haben ein schwieriges Mathematikproblem. ChatGPT soll uns dabei helfen. ChatGPT stösst an seine Grenzen. Wir auch. Wir probieren es gemeinsam.\nAufgabe\nNina hat einen Kreis mit 20 Punkten in 20 gleich lange Kreisbögen geteilt. Sie zeichnet alle Sehnen ein, die zwei dieser Punkte verbinden. Wie viele dieser Sehnen sind länger als der Radius, aber kürzer als der Durchmesser des Kreises?\n\n90 (B) 100 (C) 120 (D) 140 (E ) 160"
   },
   {
     "objectID": "index.html#section-8",

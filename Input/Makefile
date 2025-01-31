@@ -4,7 +4,7 @@ help:           ## Show this help.
 IMG_DIR = docs/images
 FIND=find
 # use env var PRESENTAION_NAME=presentation
-NAME=introIS2ITSOct2024
+NAME=KW05Neufeld
 QMD=index.qmd
 
 DOCS_PATH=docs/
@@ -25,8 +25,8 @@ upload-js:
 	cd ../interaktiv-frontend && make upload
 
 render:         ## Render the markdown with quarto into docs/
-	@cp -rf images/icons docs/images/
 	@quarto render $(QMD)
+	@cp -rf images/icons docs/images/
 
 pdf:            ## Render the markdown with quarto into a pdf
 	@quarto render $(QMD) --to pdf
@@ -38,7 +38,11 @@ serve:          ## Serves the project via quarto
 serve: render
 	quarto preview
 
+images:         ## Copy images to the docs folder
+	@cp -rf images/icons docs/images/icons
+
 upload: render  ## Upload the docs to the server
+	cp -rf images/icons docs/images/icons
 	tar -cvzf $(DOCS_TAR_PATH) $(DOCS_PATH) && \
 	scp -r $(DOCS_TAR_PATH) $(SERVER):$(REMOTE_PATH) && \
 	ssh $(SERVER) "rm -rf $(AWS_PREFIX)$(INTERAKTIV)$(DOCS_PATH)" && \
@@ -47,7 +51,7 @@ upload: render  ## Upload the docs to the server
 
 load: render    ## load docs to local nginx server
 	cp -r $(DOCS_PATH)/* $(LOC_PREFIX)$(INTERAKTIV)$(DOCS_PATH)
-	cd ../../interaktiv-frontend/ && make build && make load
+	cd ../../interaktiv-frontend/ && make build_local && make load
 
 dev:			## Serves the project in development mode
 	cd docs && python -m http.server 5050

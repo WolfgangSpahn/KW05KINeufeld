@@ -3,9 +3,9 @@ title: "Spass mit KI"
 subtitle: |
   Neufeld Gymnasium Bern, KI Module, KW05 2025
   <br><br>
-  *Wolfgang Spahn*, *Rene *
+  *Wolfgang Spahn*, *Rene Fehlmann*
   <br><br>
-  Oct.2024
+  30./31.Jan.2025
   <br>
   <br>
   ![](images/phbern-cover.jpg){width="70%"}
@@ -29,14 +29,16 @@ resources:
 ---
 ## Infos
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-<br>
+<br><br>
 Zum Starten des Ateliers bitte diesen Link verwenden:
 <br>
-<h1  class="centered-text">sebayt.com</h1>
+<h1  class="centered-text">sebayt.ch/docs/</h1>
 <br>
 Für Vollbildmodus bitte diesen Button "Fullscreen" klicken oder Taste "F11".
 <br><br>
 <button onclick="goFullScreen()" class="centered-xxl-rounded-button">Fullscreen</button>
+<br><br>
+<div class="centered-xs-text"> Server IP: <div type="showIPSocket" id="ip-socket"></div></div>
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Willkommen im Atelier
@@ -57,6 +59,16 @@ Für Vollbildmodus bitte diesen Button "Fullscreen" klicken oder Taste "F11".
 - Freitag-Nachmittag
   - Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.
   - Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
+
+<!-- --------------------------------------------------- slide A30 ----------------------------------------------------- -->
+
+## Was meint ihr?
+<br><br>
+
+Passt das so für Euch?
+
+<div type="pollField" id="pollField1"></div>
+<div type="pollPercentage" ref="pollField1" class="centered-xxl-text"></div>
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -85,18 +97,10 @@ Erst heute werden die Kuriositäten zu echten Anwendungen.
 ::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## KI Kuriosität oder Realität?
+## KI Kuriosität/Realität?
 
-:::: {.columns}
-::: {.column width="30%"}
-Erst waren die Anwendungen sehr spezifisch und eher kurios. 
+![](images/KI_Geschichte.webp)
 
-Heute sind intelligente Systeme Realität.
-:::
-::: {.column width="70%"}
-![](images/KI_Geschichte.webp){width="120%"}
-:::
-::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## KI - Intelligenz?
@@ -198,6 +202,17 @@ OpenAI hat über 300 Mio wöchentliche Nutzer weltweit. Schweiz:
 ::::
 
 
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+<!-- ## Was meint ihr?
+<br><br>
+
+Das war spannend!
+
+<div type="pollField" id="pollField2"></div>
+<div type="pollPercentage" ref="pollField2" class="centered-xxl-text"></div> -->
+
+
 <!-- =================================================== slide ===================================================== -->
 ## _
 
@@ -208,9 +223,19 @@ Wir bauen ein neuronales Netzwerk
 :::
 
 <!-- --------------------------------------------------- slide A8 ----------------------------------------------------- -->
-## Mustererkennung
+## KI Mustererkennung
 
 <div type="mustererkennung" id="svg-mustererkennung"></div>
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+<!-- ## Was meint ihr?
+<br><br>
+
+Das gibt mir eine erste Idee.
+
+<div type="pollField" id="pollField3"></div>
+<div type="pollPercentage" ref="pollField3" class="centered-xxl-text"></div> -->
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -222,7 +247,7 @@ Wie verstehen neuronale Netze Sprache und Bilder?
 :::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Trainingsarten
+## KI Trainingsarten
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -243,7 +268,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 ::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Text Bedeutung
+## KI Text Bedeutung
 :::: {.columns}
 ::: {.column width="50%"}
 **Wie versteht die KI ein Wort?**
@@ -267,7 +292,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Mehrdeutigkeit @!?
+## KI Mehrdeutigkeit @!?
 :::: {.columns}
 ::: {.column width="50%"}
 **Ein Wort, zwei Bedeutungen**
@@ -293,7 +318,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 ::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Wie machen LLMs das? 1/2
+## Wie machen KIs das? 1/2
 
 LLM bewerten die Wahrscheinlichkeit eines Textes. Dabei lernen sie die Beziehungen zwischen Wörtern und Sätzen.
 
@@ -313,14 +338,13 @@ OpenAI brauchte $13\cdot 10^{12}$ Tokens (~100 Mio Bücher) um GPT-4 mit ca. $1\
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Ein Podcast
+## KI Podcast
 
 **DEMO**: Google Notebook LM erkärt Dir Deinen Text in einem Podcast.
 
 - [Source](https://gymneufeld.ch/chinastudienreise-und-wyef-2024/)
 
 - [Podcast](https://notebooklm.google.com/notebook/3db386a2-35a7-42fe-88a0-17d038ed8081/audio)
-
 
 - [Notebook LM](https://notebooklm.google.com)
 
@@ -329,6 +353,16 @@ OpenAI brauchte $13\cdot 10^{12}$ Tokens (~100 Mio Bücher) um GPT-4 mit ca. $1\
 ## KI ist mehr als Imitation
 
 ![Modelle zeigen überraschende Eigenschaften die unvorhersehbar auftauchen](images/LLMEmergentCapabilites.gif){width="80%" }
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+<!-- ## Was meint ihr?
+<br><br>
+
+Jetzt bin ich baraat, um selber mit KI zu arbeiten.
+
+<div type="pollField" id="pollField4"></div>
+<div type="pollPercentage" ref="pollField4" class="centered-xxl-text"></div> -->
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -346,13 +380,13 @@ Wie kreieren wir Texte nach unseren Vorgaben?
 :::: {.columns}
 ::: {.column width="40%"}
 
-Wieviel Rs sind in strawberry?
+How many Rs are in Strawberry?
 
 <div type="inputField" id="inputField2"></div>
 
 Und was sagen die KI Modelle?
 
-- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
+- [GPT 4o mini](https://chatgpt.com/?oai-dm=1&model=gpt-4o-mini)
 
 :::
 ::: {.column width="60%"}
@@ -364,7 +398,7 @@ Und was sagen die KI Modelle?
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Wieviel Rs?
+## KI: How many Rs?
 
 ![Open LLMs](images/HowManyRs_d.webp)
 
@@ -373,14 +407,14 @@ Und was sagen die KI Modelle?
 
 ## Prompts steuern KIs
 
-Prompts sind Anweisungen, die die KI dazu bringen, bestimmte Dinge zu tun. 
+Prompts sind Anweisungen, die die KI dazu bringen, bestimmte Dinge zu tun.  
 
-Erinnert Euch die KI "denkt" nicht wie Menschen sondern sie verdichtet Informationen zu Vektoren. 
-
-- Eurer Input wird zu einem Vektor verdichtet, der dann die Antwort bestimmt.
+- Eurer Input/Prompt wird zu einem Vektor verdichtet, der dann die Antwort bestimmt.
 - Alles was Ihr der KI in der Session gesagt habt, ist Teil des Prompts.
 
 ![Prompting](images/DALL_E_Prompt.webp){width="80%"}
+
+Erinnert Euch die KI "denkt" nicht wie Menschen sondern sie verdichtet Informationen zu Vektoren.
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
@@ -390,7 +424,7 @@ Die KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struk
 
   - Setzt den **Rahmen**, welche **Rolle** soll die KI spielen: Experte, Schriftsteller, Lehrer, Berater, ...
   - Sei konkret, **präzise** und vermeide Vieldeutigkeit. Ein Beispiel hilft.
-  - KI kann nur das wissen, was sie gelernt hat. Wenn sie es **nicht gelernt** hat, **haluziniert** sie. "Wie ein Schüler*in unter Druck."
+  - KI kann nur das wissen, was sie gelernt hat. Wenn sie es **nicht gelernt** hat, **halluziniert** sie. "Wie ein Schüler*in unter Druck."
     - Für sie unbekannte Information muss von Dir zum Prompt hinzugefügt werden.
     - Wenn sie sich selber wiederspricht heisst das, es gibt in den Trainingsdaten Widersprüche.
 
@@ -407,7 +441,7 @@ Die KI simuliert menschliche Dialoge: Der Mensch braucht Zwischenschritte, Struk
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
 
-## Wir lösen ein Kreuzworträtsel
+## KI & Kreuzworträtsel
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -420,6 +454,15 @@ Bitte gib mir ein Wort mit 5 Buchstaben: Doppelagent und Gegenspieler des Jungen
 
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+<!-- ## Was meint ihr?
+<br><br>
+
+Das hat geholfen um zu verstehen, wie KI Texte generiert.
+
+<div type="pollField" id="pollField5"></div>
+<div type="pollPercentage" ref="pollField5" class="centered-xxl-text"></div> -->
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -454,27 +497,28 @@ Wie kreieren wir Bilder nach unseren Ideen?
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Wir spielen mit Bildern
-
+## Wir spielen mit Bildern 1/2
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 - **prompt**: Bitte zeichne ein Bild von einem Vogel Strauss, der auf einem Skateboard fährt, im Stil von Dali.
 
 ![Strauss auf dem Skateboard](images/DALL_E_Strauss_auf_dem_Skateboard.webp){width="50%"}
 :::
-::: {.column width="50%"}
+::: {.column width="60%"}
 
-- **prompt**: Bitte transkribiere dieses Bild, sodass ich es mittels prompt reproduzieren kann: Position, Stil, Farben, ...
+- **prompt**: Bitte beschreibe dieses Bild im Detail, sodass ich es mittels prompt reproduzieren kann: Position, Stil, Farben, ...
 
 :::{.small}
-Ein surrealistisches Kunstwerk zeigt einen Strauß, der auf einem blauen Skateboard fährt. Der Strauß ist leicht nach rechts geneigt und steht mittig im Bild, wobei seine langen Beine auf dem Skateboard gut sichtbar sind. Das Skateboard ist schräg in einem leichten Winkel nach rechts positioniert, während die Rollen klar definiert sind und einen Eindruck von Bewegung erzeugen. Der Strauß hat einen aufmerksamen Ausdruck, und sein Hals ist aufrecht. Er befindet sich auf einer trockenen, rissigen Wüstenlandschaft, die den unteren Teil des Bildes einnimmt.
+Ein surrealistisches Kunstwerk, das einen Strauß zeigt, der auf einem blauen Skateboard mit türkisfarbenen Rädern fährt. Der Strauß steht zentral im Bild, seine langen Beine gestreckt, während er mühelos über den Boden gleitet. Die Umgebung ist eine trockene, rissige Wüstenlandschaft mit sanften Hügeln im Hintergrund. Der Himmel ist ein intensiver Farbverlauf von Hellblau zu warmem Orange und Rosa, durchzogen von weichen Wolken.
+
+Um den Strauß herum schweben fließende, organische Formen in leuchtendem Orange und zartem Rosa, die wie flüssige, wirbelnde Bänder wirken. Einige dieser Formen scheinen mit ihm in Bewegung zu sein, während andere sanft in der Luft schweben. Zusätzlich schweben mehrere kugelförmige Objekte um den Strauß, einige mit abstrakten, psychedelischen Mustern in Blau, Orange und Gelb. Ein großes surrealistisches Auge mit einer blauen Iris und schwarzer Pupille schwebt prominent im Hintergrund, fast wie ein übernatürlicher Beobachter.
+
+Der Stil des Kunstwerks ist surrealistisch mit einem Hauch von moderner Fantasie. Die Farben sind kräftig und kontrastreich, mit einer harmonischen Mischung aus warmen (Orange, Rosa) und kühlen (Blau, Türkis) Tönen. Die Szene wirkt lebendig und traumartig, mit klaren Details und surrealer Dynamik, die eine magische, energiegeladene Atmosphäre erzeugen.
 :::
 
 :::
 ::::
-
-
 
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
@@ -482,9 +526,10 @@ Ein surrealistisches Kunstwerk zeigt einen Strauß, der auf einem blauen Skatebo
 
 ## Wir spielen mit Bildern 2/2
 
+Wenn wir den detailierten Text verwenden, können wir den Stil reproduzieren.
+
 :::: {.columns}
 ::: {.column width="50%"}
-
 ![Strauss auf dem Skateboard](images/DALL_E_Strauss_auf_dem_Skateboard.webp){width="70%"}
 :::
 ::: {.column width="50%"}
@@ -540,6 +585,16 @@ Es ist wie beim Drehbuch schreiben. Die Szenenbeschreibung ist der Input für di
     - Welche Elemente sind wichtig? Vordergrund, Hintergrund, ...
     - Welche Bildaufteilung? Goldener Schnitt, ...
     - Welche Bildaussage? Was soll das Bild aussagen?
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+<!-- ## Was meint ihr?
+<br><br>
+
+Das hat geholfen, um Bilder zu kreieren!
+
+<div type="pollField" id="pollField6"></div>
+<div type="pollPercentage" ref="pollField6" class="centered-xxl-text"></div> -->
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -608,7 +663,7 @@ Dazu hat sie Marsproben analysiert und zerlegt, mehr als 3,7 Millionen mögliche
 <iframe width="730" height="411" src="https://www.youtube.com/embed/KsBveF-PwAY" title="Supplementary Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## körperliche Arbeit
+## Vergleich: körperliche Arbeit
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -627,6 +682,15 @@ Dazu hat sie Marsproben analysiert und zerlegt, mehr als 3,7 Millionen mögliche
 
 als Model der zu erwartenden Transformation für geistige Arbeit?
 
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+<!-- ## Was meint ihr?
+<br><br>
+
+Da wird sich einiges ändern.
+
+<div type="pollField" id="pollField7"></div>
+<div type="pollPercentage" ref="pollField7" class="centered-xxl-text"></div> -->
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -643,28 +707,15 @@ Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Im Dialog mit KI
-
-Richtig gute Ergebnisse erzielt man nicht mit einem prompt, Es braucht einen Dialog auf Augenhöhe.
-
-  - Definiere Dein Ziele erstmal für Dich selbst.
-  - Überlege, wie Du die KI dazu bringen kannst, Deine Ziele zu erreichen.
-  - Gehe methodisch vor, Schritt für Schritt. Verlange nicht zu viel auf einmal.
-  - Verstehe und analysiere die Antworten der KI. Worauf läuft das hinaus?
-  - Fragt nach, wenn Du nicht sicher bist, ob die KI Eure Anweisungen verstanden hat.
-  - Lasst die KI Ihre eigene Antworten checken. Sie kann sich selbst korrigieren.
-  - Wenn Du eine zweite Methode hasst die KI zu checken super. Spiegele die Fehler zurück zur KI.
-
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-
-## Funtionenzeichnen mit KI
+## Funktionenzeichnen mit KI
 
 
 :::: {.columns}
 ::: {.column width="50%"}
 
-- Bitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.
+Bitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.
+
+- Und nun beginnen wir einen Dialog über Nullstellen, Extrema, Wendepunkte, ... .
 
 :::
 ::: {.column width="50%"}
@@ -676,6 +727,20 @@ Richtig gute Ergebnisse erzielt man nicht mit einem prompt, Es braucht einen Dia
 
 - [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Im Dialog mit KI
+
+Richtig gute Ergebnisse erzielt man nicht mit einem prompt. Es braucht einen Dialog auf Augenhöhe.
+
+  - **Definiere Deine Ziele** erstmal für Dich selbst.
+  - Überlege, wie Du die **KI dazu bringen kannst**, Deine Ziele zu erreichen.
+  - Gehe methodisch vor, **Schritt für Schritt**. Verlange nicht zu viel auf einmal.
+  - Verstehe und **analysiere die Antworten der KI**. Worauf läuft das hinaus?
+  - **Fragt nach**, wenn Du nicht sicher bist, ob die KI Eure Anweisungen verstanden hat.
+  - Lasst die KI Ihre **eigene Antworten checken**. Sie kann sich selbst korrigieren.
+  - Wenn Du eine **zweite Methode** hast die KI zu checken super. Spiegele die Fehler zurück zur KI.
+  - **Geduld**. Die KI ist nicht perfekt. Sie kann nicht alles wissen. Sie kann nicht alles lernen.
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -693,28 +758,80 @@ Wie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## Wir zeichnen ein Comic
 
-Comic zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
+:::: {.columns}
+::: {.column width="50%"}
+Comic Zeichnen ist richtig aufwendig. ChatGPT kann uns dabei helfen. Die Story muss aber von uns kommen.
+
+- Storyline: Die Geschichte in einem Satz.
+- Storyboard: Wie sieht die Geschichte aus? 
+- Bildbeschreibung: Was ist auf den einzelnen Bildern zu sehen?
+- Dialoge: Was sagen die Figuren?
+- Zeichnungen: Zeichen die Bilder.
+- Zusammenfügen: In einem Graphikprogram, füge die Bilder und Dialoge zusammen.
+
+:::
+::: {.column width="50%"}
+![](images/comic.webp){width="70%"}
+:::
+::::
+
+
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Ein schwieriges Kreuzworträtsel
+## Schwierige Kreuzworträtsel
 
 ChatGPT ist nicht wirklich gut in Kreuzworträtseln. Wir auch nicht. Gemeinsam schaffen wir es vielleicht.
+
+### Aufgabe
+
+:::: {.columns}
+::: {.column width="40%"}
+![](images/raetsel.png)
+:::
+::: {.column width="60%" .small}
+ 1 - Sammlungsaffiner Sehenswerturteiler<br>
+ 2 - Schmiegt sich, letztendlich damenhaft, an Wüstenregionen<br>
+ 3 - Passt zwischen Jung und Fahrt, auch wenn die gar nicht so weit geht<br>
+ 4 - Ungewöhnlich sichtbares Obst? Vergleichsweise Wohlgehüteter!<br>
+ 4 - Auf manch legerer <6 senkrecht> werden ihre Achtel in die Runde gegeben<br>
+ 5 - Wäre 2025 angemessen für Schweitzers 150. Oder Kehlmanns 50.<br>
+ 6 - Tierische Ausgrenzung<br>
+ 7 - Sterben müssen bleibe mir <3 senkrecht>, doch tot sein – das ist mir … Epicharm -<br>
+ 8 - Der ganze Mai liegt in ihren Zeichen, Wörtern, Sätzen, Seiten<br>
+ 9 - Soziale Bewegungform<br>
+ 10 - Darin treffen sich die Größten der Großen zum Ballspielen, aber nur kurz<br>
+ 11 - Ende der Welt, mit dem Wolfgang Amadeus’ Vater mitunterschrieb<br>
+ 12 - Mahnmal der Verwundbarkeit<br>
+:::
+::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
 ## Kurvendiscussion mit KI
 
-Wir wollen die Funktion y = x³-2x²-x+2 genau untersuchen. ChatGPT soll uns dabei helfen.
+Wir wollen uns die Konzepte der Kurvendiskussion genauer anschauen. ChatGPT soll uns dabei helfen.
 
-- Nullstellen, Extrema und Wendepunkte etc.?
+### Aufgabe
+
+Diskutiere und verstehe die Funktion y = x³-2x²-x+2.
+
+- Kurvenverlauf, Nullstellen, Extrema und Wendepunkte etc.?
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## Wir lösen ein schwieriges Mathematikproblem
+## Schwierige Mathematikprobleme
 
 Wir haben ein schwieriges Mathematikproblem. ChatGPT soll uns dabei helfen. ChatGPT stösst an seine Grenzen. Wir auch.
 Wir probieren es gemeinsam.
+
+### Aufgabe
+
+Nina hat einen Kreis mit 20 Punkten in 20 gleich lange Kreisbögen geteilt.
+Sie zeichnet alle Sehnen ein, die zwei dieser Punkte verbinden. Wie viele dieser
+Sehnen sind länger als der Radius, aber kürzer als der Durchmesser des Kreises?
+
+(A) 90 (B) 100 (C) 120 (D) 140 (E ) 160
 
 
 <!-- =================================================== slide ===================================================== -->

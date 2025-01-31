@@ -131,6 +131,12 @@ figure .grayfigure {
     font-weight: bold;
   }
 
+.centered-xs-text {
+    font-size: 8px;
+    text-align: center;
+    font-weight: bold;
+  } 
+
 .centered-xxl-text {
     font-size: 64px;
     text-align: center;
