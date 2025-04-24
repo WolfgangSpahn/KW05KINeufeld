@@ -2,7 +2,6 @@
 _site/
 _output/
 *.html
-*.pdf
 *.docx
 *.pptx
 *.epub
