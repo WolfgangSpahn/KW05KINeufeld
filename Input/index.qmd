@@ -52,9 +52,9 @@ Für Vollbildmodus bitte diesen Button "Fullscreen" klicken oder Taste "F11".
   - Motivation, Geschichte, Prinzipien von neuronal AI: Warum neuronale Netzwerke?
   - Wir bauen ein neuronales Netzwerk
   - Wie verstehen neuronale Netze Sprache und Bilder?
-- Freitag-Vormittag
   - Wie kreieren wir Texte nach unseren Vorgaben? 
   - Wie kreieren wir Bilder nach unseren Ideen?
+- Freitag-Vormittag
   - AI heute und morgen
 - Freitag-Nachmittag
   - Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.
@@ -62,13 +62,13 @@ Für Vollbildmodus bitte diesen Button "Fullscreen" klicken oder Taste "F11".
 
 <!-- --------------------------------------------------- slide A30 ----------------------------------------------------- -->
 
-## Was meint ihr?
+<!-- ## Was meint ihr?
 <br><br>
 
 Passt das so für Euch?
 
 <div type="pollField" id="pollField1"></div>
-<div type="pollPercentage" ref="pollField1" class="centered-xxl-text"></div>
+<div type="pollPercentage" ref="pollField1" class="centered-xxl-text"></div> -->
 
 <!-- =================================================== slide ===================================================== -->
 ## _
@@ -377,29 +377,6 @@ Wie kreieren wir Texte nach unseren Vorgaben?
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 ## KIs sind schlau und doof zugleich
 
-:::: {.columns}
-::: {.column width="40%"}
-
-How many Rs are in Strawberry?
-
-<div type="inputField" id="inputField2"></div>
-
-Und was sagen die KI Modelle?
-
-- [GPT 4o mini](https://chatgpt.com/?oai-dm=1&model=gpt-4o-mini)
-
-:::
-::: {.column width="60%"}
-
-<div type="inputCollection" ref="inputField2" argConfig='{ "width": 500, "height": 300, "hidden": false }'></div>
-
-:::
-::::
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-
-## KI: How many Rs?
-
 ![Open LLMs](images/HowManyRs_d.webp)
 
 
@@ -547,7 +524,7 @@ Wenn wir den detailierten Text verwenden, können wir den Stil reproduzieren.
 ::: {.column width="50%"}
 
 - Math-problem: Leo hat aus 27 kleinen, gleich grossen Würfeln einen grossen 3× 3× 3-Würfel gebaut. Die kleinen Würfel sind schwarz, grau oder weiss. Die Oberfläche des grossen Würfels ist jeweils zu einem Drittel schwarz, grau und weiss. Bitte hilf schon einmal bei der Visualisierung des Problems in matplotlib python.
-
+- Dreick: Zeichne ein rechtwinkliges Dreieck mit matplotlib python, das in einem Kreis liegt, im Still technisches Zeichnen. Die Hypothenuse ist identisch mit dem Durchmesser. Zeichne den rechten winkel \angle{ACB} ein.
 :::
 ::: {.column width="50%"}
 
@@ -555,6 +532,8 @@ Wenn wir den detailierten Text verwenden, können wir den Stil reproduzieren.
 
 :::
 ::::
+
+- [GPT 4o](https://chatgpt.com/?oai-dm=1&model=gpt-4o)
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
@@ -713,7 +692,7 @@ Wir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode
 :::: {.columns}
 ::: {.column width="50%"}
 
-Bitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.
+Bitte gib mir den Matplotlib code um die function y = x³-3x²-9x+27 zu zeichnen. Verwende das Canvas.
 
 - Und nun beginnen wir einen Dialog über Nullstellen, Extrema, Wendepunkte, ... .
 

@@ -18,14 +18,7 @@
     "href": "index.html#module",
     "title": "Spass mit KI",
     "section": "Module",
-    "text": "Module\n\nDonnerstag-Nachmittag\n\nWillkommen\nMotivation, Geschichte, Prinzipien von neuronal AI: Warum neuronale Netzwerke?\nWir bauen ein neuronales Netzwerk\nWie verstehen neuronale Netze Sprache und Bilder?\n\nFreitag-Vormittag\n\nWie kreieren wir Texte nach unseren Vorgaben?\nWie kreieren wir Bilder nach unseren Ideen?\nAI heute und morgen\n\nFreitag-Nachmittag\n\nWir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.\nWie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?"
-  },
-  {
-    "objectID": "index.html#was-meint-ihr",
-    "href": "index.html#was-meint-ihr",
-    "title": "Spass mit KI",
-    "section": "Was meint ihr?",
-    "text": "Was meint ihr?\n\nPasst das so für Euch?"
+    "text": "Module\n\nDonnerstag-Nachmittag\n\nWillkommen\nMotivation, Geschichte, Prinzipien von neuronal AI: Warum neuronale Netzwerke?\nWir bauen ein neuronales Netzwerk\nWie verstehen neuronale Netze Sprache und Bilder?\nWie kreieren wir Texte nach unseren Vorgaben?\nWie kreieren wir Bilder nach unseren Ideen?\n\nFreitag-Vormittag\n\nAI heute und morgen\n\nFreitag-Nachmittag\n\nWir nutzen neuronale Netze zur Verarbeitung von Wissen mit Text und Computercode.\nWie lösen wir komplexe Aufgaben mit KI durch einen Dialog auf Augenhöhe?"
   },
   {
     "objectID": "index.html#section",
@@ -221,7 +214,7 @@
     "href": "index.html#technische-zeichnungen",
     "title": "Spass mit KI",
     "section": "Technische Zeichnungen",
-    "text": "Technische Zeichnungen\n\n\n\nMath-problem: Leo hat aus 27 kleinen, gleich grossen Würfeln einen grossen 3× 3× 3-Würfel gebaut. Die kleinen Würfel sind schwarz, grau oder weiss. Die Oberfläche des grossen Würfels ist jeweils zu einem Drittel schwarz, grau und weiss. Bitte hilf schon einmal bei der Visualisierung des Problems in matplotlib python.\n\n\n\n\n\nWürfel"
+    "text": "Technische Zeichnungen\n\n\n\nMath-problem: Leo hat aus 27 kleinen, gleich grossen Würfeln einen grossen 3× 3× 3-Würfel gebaut. Die kleinen Würfel sind schwarz, grau oder weiss. Die Oberfläche des grossen Würfels ist jeweils zu einem Drittel schwarz, grau und weiss. Bitte hilf schon einmal bei der Visualisierung des Problems in matplotlib python.\nDreick: Zeichne ein rechtwinkliges Dreieck mit matplotlib python, das in einem Kreis liegt, im Still technisches Zeichnen. Die Hypothenuse ist identisch mit dem Durchmesser. Zeichne den rechten winkel ein.\n\n\n\n\n\nWürfel\n\n\n\n\nGPT 4o"
   },
   {
     "objectID": "index.html#gute-prompts-für-bilder-12",
@@ -284,7 +277,7 @@
     "href": "index.html#funktionenzeichnen-mit-ki",
     "title": "Spass mit KI",
     "section": "Funktionenzeichnen mit KI",
-    "text": "Funktionenzeichnen mit KI\n\n\nBitte gib mir den Matplotlib code um die function y = x³-2x²-x+2 zu zeichnen. Verwende das Canvas.\n\nUnd nun beginnen wir einen Dialog über Nullstellen, Extrema, Wendepunkte, … .\n\n\n\n\n\nGPT 4o"
+    "text": "Funktionenzeichnen mit KI\n\n\nBitte gib mir den Matplotlib code um die function y = x³-3x²-9x+27 zu zeichnen. Verwende das Canvas.\n\nUnd nun beginnen wir einen Dialog über Nullstellen, Extrema, Wendepunkte, … .\n\n\n\n\n\nGPT 4o"
   },
   {
     "objectID": "index.html#im-dialog-mit-ki",
